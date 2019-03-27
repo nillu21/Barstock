@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Barstock</title>
+</head>
+<body>
+	
+	<div class="text">
+		<img src="pank logo.png" style="padding-top: 100px ">
+		<h1 id="time" style="color:black;font-size:1px"></h1>
+		<div class="euro">
+			<span><h3> Current price:</h3><h1 id="price">6.00&euro;</h1><h1></h1>
+		</div>
+	
+		<table id="time2"></table>
+		<canvas id="myChart"></canvas>
+
+
+		<button id="buy" style="size: 300px" onclick="clicked()">DRINK BOUGHT</button>
+		<h1>Drinks bought in last Round:</h1> <h1 id="drinks"></h1>
+	</div>
+
+
+</body>
+
+<script type="text/javascript" src="barstock.js"></script>
+</html>

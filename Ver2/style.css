@@ -1,0 +1,24 @@
+
+
+
+body {
+	text-align: center;
+	background-color: black;
+
+}
+
+.text {
+	color: white;
+}
+
+.euro {
+	display: inline-block;
+}
+canvas {
+	width: 500px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	
+}
